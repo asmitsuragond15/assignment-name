@@ -5,7 +5,7 @@ public class assign2
 
     public void triangle() {
 
-        System.out.println("This Area of Reactagle");
+        System.out.println("This Area of Triangle");
 
         Scanner scanner   = new Scanner(System.in);
         System.out.print("Enter the side1 of the triangle: ");
@@ -21,7 +21,7 @@ public class assign2
         double perimeter  =  (side1 + side2 + side3);
  
 
-         System.out.println("Perimeter of the rectangle: " + perimeter);
+         System.out.println("Perimeter of the triangle: " + perimeter);
 
     }
 

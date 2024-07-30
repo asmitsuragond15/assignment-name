@@ -7,15 +7,15 @@ import java.util.*;
 
                 System.out.println("This Area of Reactagle");
                 double a,b;
-                Scanner scanner = new Scanner(System.in);
+                Scanner scanner   = new Scanner(System.in);
                 System.out.print("Enter the length of the rectangle: ");
-               double length = scanner.nextDouble();
+               double length      = scanner.nextDouble();
 
                 System.out.print("Enter the breadth of the rectangle: ");
-                double breadth = scanner.nextDouble();
+                double breadth    = scanner.nextDouble();
 
-                double area = length * breadth;
-                double perimeter = 2 * (length + breadth);
+                double area       = length * breadth;
+                double perimeter  = 2 * (length + breadth);
 
         
                  System.out.println("Area of the rectangle: " + area);
@@ -25,7 +25,7 @@ import java.util.*;
         
             public static void main(String[] args)
             {
-                assign1 a1=new assign1();
+                assign1 a1        = new assign1();
                 a1.reactagle();
 
             

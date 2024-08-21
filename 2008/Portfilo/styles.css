@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.profile {
+    text-align: center;
+    margin: 10px 0;
+    padding-top: 10px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.title {
+    font-size: 18px;
+    color: #666;
+}
+section {
+    padding: 20px;
+    background-color: #f7f7f7; /* light gray background */
+    border: 1px solid #ddd; /* light gray border */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    margin-bottom: 20px; /* add some space between sections */
+  }
+  
+  section h2 {
+    color: #333; /* dark gray title */
+    border-bottom: 2px solid #333; /* dark gray underline */
+    padding-bottom: 5px;
+    margin-top: 0; /* remove top margin */
+  }
+  
+  section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+    padding-left: 20px; /* add some space before list items */
+    position: relative; /* for the arrow icon */
+  }
+  
+  section li::before {
+    content: "\25B6"; /* arrow icon */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    color: #666; /* dark gray arrow */
+  }
+  
+  section li h3 {
+    font-weight: bold;
+    margin-top: 0; /* remove top margin */
+  }
+  
+  section li p {
+    margin-bottom: 10px;
+  }
+  
+  /* Add some visual interest to the experience section */
+  #experience ul li {
+    background-color: #fff; /* white background */
+    padding: 10px;
+    border: 1px solid #ddd; /* light gray border */
+    border-radius: 10px; /* rounded corners */
+    margin-bottom: 20px; /* add some space between experience items */
+  }
+  
+  #experience ul li h3 {
+    margin-top: 0; /* remove top margin */
+  }
+  
+  #experience ul li ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #experience ul li ul li {
+    margin-bottom: 10px;
+  }
+  /* Add a smooth scrolling effect */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Add a transition effect to the nav links */
+  nav ul li a {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #333; /* change the hover color to your liking */
+  }

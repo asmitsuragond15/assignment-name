@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>first</display-name>
+    <servlet-name>first</servlet-name>
+    <servlet-class>servlet.first</servlet-class>
+    <init-param>
+      <param-name>message1</param-name>
+      <param-value>Hello Servlet 1 to All</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>first</servlet-name>
+    <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  <display-name>Assignment</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <param-name>para1</param-name>
+    <param-value>Hello Shraddha</param-value>
+  </context-param>
+  <context-param>
+    <param-name>para2</param-name>
+    <param-value>Hello Asmit</param-value>
+  </context-param>
+  <servlet>
+    <description></description>
+    <display-name>second</display-name>
+    <servlet-name>second</servlet-name>
+    <servlet-class>servlet.second</servlet-class>
+    <init-param>
+      <param-name>message2</param-name>
+      <param-value>Hello Servlet 2 to All again</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>second</servlet-name>
+    <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Display</display-name>
+    <servlet-name>Display</servlet-name>
+    <servlet-class>response.Display</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Display</servlet-name>
+    <url-pattern>/Display</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Second</display-name>
+    <servlet-name>Second</servlet-name>
+    <servlet-class>response.Second</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Second</servlet-name>
+    <url-pattern>/Second</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletOne</display-name>
+    <servlet-name>ServletOne</servlet-name>
+    <servlet-class>session.ServletOne</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletOne</servlet-name>
+    <url-pattern>/ServletOne</url-pattern>
+  </servlet-mapping>
+</web-app>

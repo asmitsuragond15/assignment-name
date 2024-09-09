@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: '0409'
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: WEB-INF/view
+server:
+  port: 8079
